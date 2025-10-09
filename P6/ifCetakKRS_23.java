@@ -14,6 +14,7 @@ public class ifCetakKRS_23 {
                 ? "Pembayaran UKT terverefikisi. \nSilahkan cetak KRS dan minta tanda tangan DPA."
                 : "Registrasi ditolak. Silakan lunasi UKZT terkebiih dahulu.";
                 System.out.println(pesan);
+                
         
            
             
