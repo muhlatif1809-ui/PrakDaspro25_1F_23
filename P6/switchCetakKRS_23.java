@@ -36,6 +36,7 @@ public class switchCetakKRS_23 {
                 break;    
             default:
                 System.out.println("semester tidak valid");
+                
         }
     }
     
