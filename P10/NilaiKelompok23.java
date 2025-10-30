@@ -20,16 +20,9 @@ public class NilaiKelompok23 {
         }
             rataNIlai = totalNilai / 5.0;
             System.out.println("Kelompok : "    + i +   "Nilai Rata - Rata = " + rataNIlai );
-            if (rataNIlai >= rataTertinggi ) {
-                rataTertinggi = rataNIlai;
-                kelompokTertinggi = 1;
-                
-                
-            }
             i++;
     }
-            System.out.println("Nilai Rata - Rata Tertinggi : " + rataTertinggi + "Kelompok" + kelompokTertinggi);
-
+           
     }
     
 }
