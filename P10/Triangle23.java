@@ -16,9 +16,10 @@ public class Triangle23 {
                 j++;            
             }
             i++;
-        }   
+             System.out.println();
+        }  
     
     }
-}
+}  
 
   
