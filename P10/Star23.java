@@ -9,7 +9,7 @@ public class Star23 {
         System.out.print("Masukkan Nilai n =");
         int n = latif23.nextInt();
         
-        for (int i = 1; i <= n; i--) {
+        for (int i = 1; i <= n; i+=2) {
             System.out.print("*");
             
         }
