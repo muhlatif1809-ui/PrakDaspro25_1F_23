@@ -24,9 +24,17 @@ public class SearchNilai23 {
             }
             
         }
+        if (hasil != 0) {
             System.out.println();
             System.out.println("Nilai "+key+ " Ketemu, Merupakan Nilai  Mahasiswa Ke-" + hasil);
             System.out.println();
+                
+        } else {
+            System.out.println();
+            System.out.println("Nilai Yang Dicari Tidak Ditemukan");
+            System.out.println();
+        }
+            
     }
     
 }
