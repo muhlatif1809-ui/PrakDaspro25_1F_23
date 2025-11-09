@@ -7,7 +7,7 @@ public class ArrayNilai23 {
         Scanner latif23 = new Scanner(System.in);
         int [] nilaiAkhir = new int [10];
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < nilaiAkhir.length; i++) {
             System.out.print("Masukkann Nilai Akhir Ke- "+i+" : ");
             nilaiAkhir [i] = latif23.nextInt();   
         }
