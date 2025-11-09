@@ -2,12 +2,7 @@ package P11;
 
 public class ArrayBilangan23 {
     public static void main(String[] args) {
-        int [] bill = new int[4];
-        
-        bill [0] = 5.0;
-        bill [1] = 1287;
-        bill [2] = 7.5;
-        bill [3] = 2000000;
+        int [] bill = {5,13,-7,17};
 
         System.out.println(bill[0]);
         System.out.println(bill[1]);
