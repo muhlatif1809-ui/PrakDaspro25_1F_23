@@ -14,15 +14,10 @@ public class Bioskop23 {
         penonton [3][1] = "Hana"; 
 
         
-        System.out.println(penonton.length);
-        
-        for (String [] BarisPenonton : penonton) {
-            System.out.println("Panjang Baris : " + BarisPenonton.length);
-        }
-
-        System.out.println("Penonton Pada Baris Ke - 3 :");
-        for (String i : penonton[2]) {
-            System.out.println(i);
+        System.out.println("Jumlah Baris : " + penonton.length);
+       
+        for (int i = 0; i < penonton.length; i++) {
+            System.out.println("Penonton Pada Baris ke - " + (i+1) + " : " + String.join(",",penonton[i]));
         }
 
         System.out.printf("%s \t %s \n", penonton[0][0], penonton[0][1]);
