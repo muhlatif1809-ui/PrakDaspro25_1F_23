@@ -25,6 +25,12 @@ public class BioskopWithScanner23 {
                     System.out.print("Masukkan Kolom: ");
                     kolom = latif23.nextInt();
                     latif23.nextLine();
+                        if (baris < 1 || baris > 4 || kolom < 1 || kolom > 2){
+                            System.out.println("Nomor Baris / Kolom Tidak Tersedia");
+                            continue;
+                        }
+
+                        
 
                     penonton[baris-1][kolom-1] = nama;
 
