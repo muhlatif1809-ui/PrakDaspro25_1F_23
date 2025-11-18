@@ -29,6 +29,10 @@ public class BioskopWithScanner23 {
                             System.out.println("Nomor Baris / Kolom Tidak Tersedia");
                             continue;
                         }
+                        if (penonton[baris-3][kolom-1]!=null){
+                            System.out.println("Kursi Sudah Terisi!! Silahkan Memilih Kursi Yang Lain");
+                            continue;
+                        }
 
                         
 
