@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Kafe23 {
      public static void main(String[] args) {
             Menu("Andi", true, "DISKON 50%");
+            Menu("Budi", true, "DISKON 30%");
         }
       public static void Menu(String namaPelanggan, boolean isMember, String kodePromo) {
         System.out.println("Selamat Datang , " + namaPelanggan + "!");
