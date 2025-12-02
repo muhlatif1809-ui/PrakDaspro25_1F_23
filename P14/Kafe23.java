@@ -39,10 +39,24 @@ public class Kafe23 {
         System.out.println("Silahkan Pilih Menu Yang Anda Inginkan.");
 
     }
-       public static int hitungTotalHarga(int pilihanMenu, int banyakItem) {
+       public static int hitungTotalHarga(int pilihanMenu, int banyakItem, String kodePromo) {
         int[] hargaItems = {15000, 20000, 22000, 12000, 10000, 18000};
 
         int hargaTotal = hargaItems[pilihanMenu - 1] * banyakItem;
+
+        if (kodePromo.equals("DISKON 50%")) {
+            double diskon = hargaTotal * 0.50;
+            hargaTotal -= diskon;
+            System.out.println("Diskon 50% : Rp " + diskon);
+        }else if (kodePromo.equals("DISKON 30%")) {
+            double diskon = hargaTotal * 0.30;
+            hargaTotal -= diskon;
+            System.out.println("Disko 30% : Rp " + diskon);
+        } else {
+            System.out.println("Kode Promo Invalid");
+        }
+
+        
         return hargaTotal;
        }
 
